@@ -54,7 +54,6 @@ muscle_scales = [
     opysim.Scale([1.5, 2.0, 2.5], 'mus_scale_0', 'femur_l'),
     opysim.Scale([1.5, 2.0, 2.5], 'mus_scale_1', 'tibia_l'),
 ]
-state0 = model._model.initSystem()
 muscle.scale(state_0, *muscle_scales)
 
 # save
